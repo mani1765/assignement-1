@@ -6,7 +6,7 @@ pipeline {
    stages{
     stage('Checkout') {
             steps {
-                git 'https://github.com/your-repo/your-node-app.git'
+                git 'https://github.com/mani1765/assignement-1.git'
             }
         }
     stage('Build') {
